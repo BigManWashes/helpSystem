@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "Customer_Packet",
+    "builds": [{
+        "src": "package.json",
+        "use": "@now/static-build"
+    }],
+    "alias": ["help.bigmansystems.com"]
+}
