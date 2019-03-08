@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Customer_Packet",
+    "name": "BigMan_Help-System",
     "builds": [{
         "src": "package.json",
         "use": "@now/static-build"
