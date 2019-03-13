@@ -3,6 +3,17 @@ export default {
     title: 'Big Man Help System',
     description: 'Big Man Washes internal help system',
     public: '/public',
+    menu: [
+        'Home',
+        'Hydraulics',
+        {
+            name: 'Controls',
+            menu: [
+                'VFDs',
+                'Tunnel Controller'
+            ]
+        }
+    ],
     themeConfig: {
         logo: {
             src: '/public/img/logo.png',
@@ -20,10 +31,7 @@ export default {
                 font: 'Calibri',
                 fontSize: '14',
             },
-        },
-        files: [
-            "static/"
-        ]
+        }
     }
 
 }
