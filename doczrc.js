@@ -3,7 +3,7 @@ export default {
     title: "Big Man Help System",
     description: "Big Man Washes internal help system",
     public: "/public",
-    menu: ["Home", "Hydraulics", "VFDs"],
+    menu: ["Home"],
     themeConfig: {
         logo: {
             src: "/public/img/logo.png",
@@ -17,9 +17,20 @@ export default {
             grey: "#323840g"
         },
         styles: {
+            body: {
+
+            },
             h1: {
-                fontFamily: "Helvetica",
+                fontFamily: "Roboto, Helvetica, Sans Serif",
                 fontSize: "16"
+            },
+            h2: {
+                fontFamily: "Roboto, Helvetica, Sans Serif",
+                fontSize: "13"
+            },
+            h3: {
+                fontFamily: "Roboto, Helvetica, Sans Serif",
+                fontSize: "1"
             }
         }
     }
