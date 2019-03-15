@@ -3,7 +3,14 @@ export default {
     title: "Big Man Help System",
     description: "Big Man Washes internal help system",
     public: "/public",
-    menu: ["Home"],
+    menu: [
+        "Home",
+        "Controls",
+        "VFDs",
+        "Booster Pumps",
+        "Hydraulics",
+        "Water Softener"
+    ],
     themeConfig: {
         logo: {
             src: "/public/img/logo.png",
