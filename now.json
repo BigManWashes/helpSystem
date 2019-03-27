@@ -4,8 +4,4 @@
     "builds": [{
         "src": "package.json",
         "use": "@now/static-build"
-    }],
-    "alias": [
-        "help.bigmansystems.com"
-    ]
-}
+    }]
